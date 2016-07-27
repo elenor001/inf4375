@@ -73,5 +73,5 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <name>inf4375s2016</name>
+    <name>inf4375</name>
 </project>
