@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Dates</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <h1>Veuillez donner deux dates : </h1>
+        <form action ="#" th:action="@{/resultat}" th:object="${DateForm}" method="post">
+            
+	<p>Premiere Date: <input type="text" th:field="*{du}" /></p>
+        <p>Deuxieme Date: <input type="text" th:field="*{au}" /></p>
+        <p><input type="submit" value="Rechercher" /></p>
+        </form>
+    </body>
+</html>
